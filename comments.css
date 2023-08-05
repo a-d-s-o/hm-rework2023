@@ -1,0 +1,56 @@
+.comments {
+    background-color: var(--color-azure-100);
+    color: var(--color-azure-800);
+    padding-block: 32px;
+    padding-inline: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.comments > h4 {
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+.comments__thread {
+    width: 100%;
+    max-width: 800px;
+    margin-inline: auto;
+    margin-block: 32px;
+}
+
+.comments__header {
+    font-size: 16px;
+    padding-block: 8px;
+    color: var(--color-azure-800);
+}
+
+.comments__author {
+    font-weight: 700;
+}
+
+.comments__comment-body {
+    border-radius: 0 12px 12px 12px;
+    background-color: white;
+    padding: 16px;
+    /*font-family: "IBM Plex Mono", monospace;*/
+    font-family: "Crimson Pro", serif;
+    font-size: 19px;
+}
+
+.comments__reply-cta {
+    display: block;
+    margin-block-start: 8px;
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    /*color: currentColor !important;*/
+}
+
+.comments__reply {
+    margin-block-start: 12px;
+}
+
+.comments__reply .comments__comment-body {
+    margin-left: 48px;
+    padding: 16px;
+}

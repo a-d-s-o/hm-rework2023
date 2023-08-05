@@ -1,0 +1,153 @@
+body {
+    font-size: 20px;
+    line-height: 1.45;
+    font-family: Crimson Pro, serif;
+
+    --color-vert: hsl(180,100%,25%);
+    --color-vert-100: hsl(180,40%,80%);
+
+    --color-azure-100: hsl(210,70%,93%);
+    --color-azure-800: hsl(210,100%,20%);
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.sans {
+    font-family: Source Sans 3, sans-serif;
+}
+
+main {
+    margin-block-start: 32px;
+    margin-inline: auto;
+    max-width: 800px;
+    padding-inline: 16px;
+    overflow: hidden;
+}
+
+.article-lead {
+    font-size: 1.15em;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+i {
+    font-style: italic;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+p {
+    margin-block: 0 1em;
+}
+
+blockquote {
+    font-family: 'IBM Plex Mono';
+    font-size: 15px;
+    margin-block: 1em;
+    background-color: hsla(0,0%,95%);
+    margin-inline: auto;
+    padding: 32px;
+}
+
+a:not(.article-card) {
+    color: hsl(185,100%,30%);
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Proza Libre';
+    font-weight:  900;
+    line-height: 1.33;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+article h1,
+article h2,
+article h3 {
+    margin-block-start: 2em;
+    margin-block-end: .75em;
+}
+
+figure {
+    display: table;
+    margin: 2.5em auto;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figure figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: .7em;
+    margin-block: .25em;
+    font-weight: 500;
+}
+
+figure .copyright-figcaption {
+    display: block;
+    color: hsl(0,0%,50%);
+    font-size: .9em;
+    margin-block: .25em;
+    font-weight: 400;
+}
+
+.commercial-break {
+    margin-block: 5em;
+}
+
+.open-commercial-break {
+    display: flex;
+    align-items: center;
+    color: hsl(0,0%,50%);
+    font-family: 'Source Sans 3', sans-serif;
+    text-transform: uppercase;
+    gap: 16px;
+    font-size: 14px;
+    letter-spacing: .2em;
+    font-weight: 300;
+}
+
+.open-commercial-break:before,
+.open-commercial-break:after,
+.close-commercial-break {
+    content: '';
+    height: 0;
+    border-top: 1px solid hsl(0,0%,80%);
+    flex: 1;
+}
+
+.commercials {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-block: 32px 40px;
+}
+
+.commercials > img {
+}
